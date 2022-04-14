@@ -24,10 +24,13 @@ export default {
 
 <template>
 	<div> 
+    <router-link to="/">Accueil</router-link>
+    <br>
+    
 		<h1>launches</h1>
 		<a href=""></a>
 		<div v-for="launche in launches">
-			<p>capsule {{ launches.launche_id }}</p>
+			<p>lancement {{ launche.mission_name }}</p>
 			<div>{{ launche }}</div>
 		</div>
   	</div>

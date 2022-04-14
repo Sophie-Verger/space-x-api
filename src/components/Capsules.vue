@@ -24,6 +24,9 @@ export default {
 
 <template>
 	<div> 
+        <router-link to="/">Accueil</router-link>
+        <br>
+        
 		<h1>Capsules</h1>
 		<a href=""></a>
 		<div class="lauches"  v-for="capsule in capsules">

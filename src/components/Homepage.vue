@@ -5,9 +5,16 @@ import axios from 'axios';
 
 <template>
 	<div> 
-		<h1>homepage</h1>
-		<a href="">Lien capsules</a>
-		<a href="">Lien lancements</a>
+		<h1>Accueil</h1>
+		<div>
+			<router-link to="/home">Accueil</router-link>
+		</div>
+		<div>
+			<router-link to="/launches">Lancements</router-link>
+		</div>
+		<div>
+			<router-link to="/capsules">Capsules</router-link>	
+		</div>
 
   	</div>
 </template>
