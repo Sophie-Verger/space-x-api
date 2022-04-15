@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    margin: 2.5% 0;
+    font-size: 60px;
+    color: #ffb145;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 2px #331867 solid;
+    border-radius: 20px;
+    width: 450px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 5% 0;
+}
+
+.card_img {
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.missions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one_mission {
+    border: 1px solid #331867;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.card:hover {
+    box-shadow: #331867 0px 2px 5px 0px;
+}
+

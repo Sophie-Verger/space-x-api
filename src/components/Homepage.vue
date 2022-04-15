@@ -13,6 +13,7 @@ import axios from "axios";
           src="../assets/decollage-carre.jpg"
           alt="Picture Space X Launches"
           title="Picture Space X Launches"
+		  width="550" height="550"
         />
       </router-link>
 	  <h1>LAUNCHES</h1>
@@ -25,6 +26,7 @@ import axios from "axios";
           src="../assets/capsule-carre-plus-grand.jpg"
           alt="Picture Space X Capsules"
           title="Picture Space X Capsules"
+		  width="550" height="550"
         />
       </router-link>
 	  <h1>CAPSULES</h1>

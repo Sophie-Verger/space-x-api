@@ -9,20 +9,20 @@ const
   history: createWebHistory(),
   routes: [
     {
-        path: "/",
-        name: "homepage",
-        component: Homepage
-      },
+      path: "/",
+      name: "homepage",
+      component: Homepage
+    },
     {
       path: "/launches",
       name: "launches",
       component: Launches
     },
     {
-        path: "/capsules",
-        name: "capsules",
-        component: Capsules
-      }
+      path: "/capsules",
+      name: "capsules",
+      component: Capsules
+    }
   ]
 })
 

@@ -19,6 +19,7 @@
 
 <style>
 @import './assets/base.css';
+@import './assets/space-x.css';
 @font-face {
   font-family: "FuturaStd";
   src: local("FuturaStd"),
