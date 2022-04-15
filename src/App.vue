@@ -18,5 +18,10 @@
 </template>
 
 <style>
-
+@import './assets/base.css';
+@font-face {
+  font-family: "FuturaStd";
+  src: local("FuturaStd"),
+   url(.assets/fonts/FuturaStd/FuturaStd-Medium.otf) format("opentype");
+}
 </style>
