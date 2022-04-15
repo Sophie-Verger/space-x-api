@@ -4,7 +4,9 @@ import { BNavbarNav } from "bootstrap-vue";
 
 <template>
   <div>
+
     <nav class="navbar">
+
       <div class="navbar--brand">
       
         <router-link class="title--brand" to="/">
@@ -16,13 +18,17 @@ import { BNavbarNav } from "bootstrap-vue";
             width="55" height="55"
           />
         </router-link>
+
         <h2>
           <router-link class="title--brand logo" to="/">SPACE X</router-link>
         </h2>
+
       </div>
 
       <div class="navbar--links">
+
         <ul>
+        
           <router-link class="navbar--links logo" to="/">
             <img
               id="purple"
@@ -33,36 +39,45 @@ import { BNavbarNav } from "bootstrap-vue";
               width="55" height="55"
             />
           </router-link>
+
           <li>
             <router-link id="purple" to="/">HOME</router-link>
           </li>
+
           <router-link class="navbar--links logo" to="/launches">
             <img
               class="title--picto"
               src="../assets/picto-launches.svg"
-              alt="Logo Space X"
-              title="Logo Space X"
+              alt="Picto Space X Launches"
+              title="Picto Space X Launches"
               width="55" height="55"
             />
           </router-link>
+
           <li>
             <router-link id="purple" to="/launches">LAUNCHES</router-link>
           </li>
+
           <router-link class="navbar--links logo" to="/capsules">
             <img
               class="title--picto"
               src="../assets/picto-capsules.svg"
-              alt="Logo Space X"
-              title="Logo Space X"
+              alt="Picto Space X Capsules"
+              title="Picto Space X Capsules"
               width="55" height="55"
             />
           </router-link>
+
           <li>
             <router-link id="purple" to="/capsules">CAPSULES</router-link>
           </li>
+
         </ul>
+
       </div>
+
     </nav>
+
   </div>
 </template>
 
@@ -145,6 +160,6 @@ import { BNavbarNav } from "bootstrap-vue";
     display: flex;
     padding-bottom: 40px;
   }
-
 }
+
 </style>
