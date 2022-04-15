@@ -7,7 +7,7 @@ import axios from 'axios';
 	<div> 
 		<h1>Accueil</h1>
 		<div>
-			<router-link to="/home">Accueil</router-link>
+			<router-link to="/">Accueil</router-link>
 		</div>
 		<div>
 			<router-link to="/launches">Lancements</router-link>
