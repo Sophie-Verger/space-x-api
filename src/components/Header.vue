@@ -12,7 +12,7 @@ import { BNavbarNav } from "bootstrap-vue";
         <router-link class="title--brand" to="/">
           <img
             class="title--picto"
-            src="../assets/logo-space.svg"
+            src="../assets/images/logo-space.svg"
             alt="Logo Space X"
             title="Logo Space X"
             width="55" height="55"
@@ -33,7 +33,7 @@ import { BNavbarNav } from "bootstrap-vue";
             <img
               id="purple"
               class="title--picto"
-              src="../assets/logo-space.svg"
+              src="../assets/images/logo-space.svg"
               alt="Logo Space X"
               title="Logo Space X"
               width="55" height="55"
@@ -47,7 +47,7 @@ import { BNavbarNav } from "bootstrap-vue";
           <router-link class="navbar--links logo" to="/launches">
             <img
               class="title--picto"
-              src="../assets/picto-launches.svg"
+              src="../assets/images/picto-launches.svg"
               alt="Picto Space X Launches"
               title="Picto Space X Launches"
               width="55" height="55"
@@ -61,7 +61,7 @@ import { BNavbarNav } from "bootstrap-vue";
           <router-link class="navbar--links logo" to="/capsules">
             <img
               class="title--picto"
-              src="../assets/picto-capsules.svg"
+              src="../assets/images/picto-capsules.svg"
               alt="Picto Space X Capsules"
               title="Picto Space X Capsules"
               width="55" height="55"

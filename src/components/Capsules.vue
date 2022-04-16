@@ -27,7 +27,7 @@ export default {
     	<div class="card" v-for="capsule in capsules">
 			<h3 class="name">{{ capsule.capsule_serial }}</h3>
 			<div class="card_img">
-				<img src="../assets/capsule.png" alt="">
+				<img src="../assets/images/capsule.png" alt="">
 			</div>
 			<p><span class="subtitle">Status: </span>{{ capsule.status }}</p>
 			<p><span class="subtitle">Number of landings : </span>{{ capsule.landings }}</p>

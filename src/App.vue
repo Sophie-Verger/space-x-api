@@ -3,8 +3,6 @@
 	import Homepage from './components/Homepage.vue'
 	import Footer from './components/Footer.vue'
 	import Launches from './components/Launches.vue'
-  //import 'bootstrap/dist/css/bootstrap.css'
-  //import 'bootstrap-vue/dist/bootstrap-vue.css'
 </script>
 
 <template>
@@ -18,8 +16,8 @@
 </template>
 
 <style>
-@import './assets/base.css';
-@import './assets/space-x.css';
+@import './assets/css/base.css';
+@import './assets/css/space-x.css';
 @font-face {
   font-family: "FuturaStd";
   src: local("FuturaStd"),

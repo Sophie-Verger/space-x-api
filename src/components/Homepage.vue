@@ -10,10 +10,10 @@ import axios from "axios";
       <router-link to="/launches">
         <img
           class="picture--space--middle--link"
-          src="../assets/decollage-carre.jpg"
+          src="../assets/images/decollage-carre.jpg"
           alt="Picture Space X Launches"
           title="Picture Space X Launches"
-		  width="550" height="550"
+		      width="550" height="550"
         />
       </router-link>
 	  <h1>LAUNCHES</h1>
@@ -23,10 +23,10 @@ import axios from "axios";
       <router-link to="/capsules">
         <img
           class="picture--space--middle--link"
-          src="../assets/capsule-carre-plus-grand.jpg"
+          src="../assets/images/capsule-carre-plus-grand.jpg"
           alt="Picture Space X Capsules"
           title="Picture Space X Capsules"
-		  width="550" height="550"
+		      width="550" height="550"
         />
       </router-link>
 	  <h1>CAPSULES</h1>
@@ -39,6 +39,10 @@ import axios from "axios";
 <style scoped>
 
 /* main */
+
+.picture--space--middle {
+  margin: 0 1%;
+}
 
 .picture--space--middle h1{
 	display: flex;
@@ -62,6 +66,7 @@ import axios from "axios";
   flex-direction: row;
   justify-content: space-around;
   padding: 80px 20px;
+  min-height: 500px;
 }
 
 @media only screen and (max-width: 900px) {
